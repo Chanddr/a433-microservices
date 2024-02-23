@@ -2,7 +2,7 @@ version: '2' #Schema version dari docker compose
 
 services: #Mendefinisikan service yang akan digunakan
   item-app: #Layanan pertama diberi nama item-app
-    image: docker.pkg.github.com/chanddr/docker-publish-dicoding/item-app:v1 #Mengganti nama image dari GitHub Packages
+    image: ghcr.io/chanddr/docker-publish-dicoding/item-app:v1 #Mengganti nama image dari GitHub Packages
     ports:
       - "80:8080" #Port mapping dari port 80 host ke port 8080 container
     depends_on:

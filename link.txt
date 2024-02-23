@@ -1,1 +1,1 @@
-docker pull ghcr.io/chanddr/docker-publish-dicoding/item-app:v1
+ghcr.io/chanddr/docker-publish-dicoding/item-app:v1
